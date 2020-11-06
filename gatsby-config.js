@@ -22,7 +22,7 @@ module.exports = {
       options: {
         // type: `user-profile`,
         // 181927428
-        username: config.social.instagram,
+        username: "181927428",
       },
     },
     {
