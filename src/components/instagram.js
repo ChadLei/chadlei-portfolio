@@ -53,6 +53,8 @@ const StyledDiv = styled.div`
       }
     }
     .instag-img {
+      {/*height: 90%;*/}
+      {/*max-height: calc(33% - 1rem)*/}
       border-radius: ${({ theme }) => theme.borderRadius};
       box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.16);
       transition: all 0.3s ease-out;

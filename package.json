@@ -3,7 +3,7 @@
   "private": true,
   "description": "My personal website - built with Gatsby.js",
   "version": "1.0.0",
-  "author": "Konstantin Münster <mail@konstantin.digital>",
+  "author": "",
   "dependencies": {
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.1",
@@ -63,9 +63,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/konstantinmuenster/gatsby-portfolio"
-  },
-  "bugs": {
-    "url": "https://github.com/konstantinmuenster/gatsby-portfolio/issues"
+    "url": "https://github.com/ChadLei/chadlei-portfolio"
   }
 }
