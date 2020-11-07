@@ -56,6 +56,9 @@ const StyledContentWrapper = styled(ContentWrapper)`
       .details {
         font-size: 1.125rem;
         line-height: 2rem;
+        a {
+          margin-bottom: 1rem;
+        }
       }
     }
   }
@@ -79,14 +82,14 @@ const Contact = ({ content }) => {
         <div className="profile">
           <Img className="avatar" fluid={frontmatter.profileImage.childImageSharp.fluid} />
           <div className="details">
-            <strong>{frontmatter.name}</strong>
-            <br />
+            {/*<strong>{frontmatter.name}</strong>*/}
+            {/*<br />*/}
             <a href={`mailto:${frontmatter.email}`}>
               {frontmatter.email}
             </a>
+            <Social padding=".3rem" width="auto"/>
           </div>
         </div>
-        <Social width="9rem" padding="0.5rem 1.25rem" withIcon />
       </StyledContentWrapper>
     </StyledSection>
   )
