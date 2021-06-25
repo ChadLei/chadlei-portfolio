@@ -24,7 +24,7 @@ module.exports = {
       options: {
         // type: `user-profile`,
         // 181927428
-        usernameId: "181927428",
+        username: "181927428",
       },
     },
     {
