@@ -10,12 +10,12 @@ module.exports = {
     socialMedia: [
         {
             name: "Linkedin",
-            url: "https://www.linkedin.com/in/konstantin-muenster/"
+            url: "https://www.linkedin.com/in/chad-lei-5976918b/"
         },
-        {
-            name: "Twitter",
-            url: "https://twitter.com/ChadLei4"
-        },
+        // {
+        //     name: "Twitter",
+        //     url: "https://twitter.com/ChadLei4"
+        // },
         {
             name: "Github",
             url: "https://github.com/chadlei"
