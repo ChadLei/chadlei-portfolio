@@ -18,11 +18,13 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
     {
+      // Maybe ditch this and fetch manually instead: https://blog.larsbehrenberg.com/use-javascripts-fetch-api-with-asyncawait-to-fetch-your-instagram-feed-in-react
+      // Repo: https://github.com/LarsBehrenberg/gatsby-instagram-feed/blob/master/src/components/instagram.js
       resolve: `gatsby-source-instagram`,
       options: {
         // type: `user-profile`,
         // 181927428
-        username: "181927428",
+        usernameId: "181927428",
       },
     },
     {
