@@ -4,9 +4,9 @@ import styled from "styled-components"
 import { motion } from "framer-motion"
 import './instagram.css'
 
-import useInstagram from '../hooks/use-instagram'
-import { useOnScreen } from "../hooks"
-import config from "../config"
+import useInstagram from '.././hooks/use-instagram'
+import { useOnScreen } from ".././hooks"
+import config from "././config"
 
 import StyledSection from "../styles/StyledSection"
 import ContentWrapper from "../styles/ContentWrapper"

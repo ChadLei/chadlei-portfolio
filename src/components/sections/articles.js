@@ -11,7 +11,7 @@ import ContentWrapper from "../../styles/ContentWrapper"
 import StyledSection from "../../styles/StyledSection"
 import Underlining from "../../styles/Underlining"
 
-import Instagram from '../instagram'
+import Instagram from './instagram_for_articles_section/instagram'
 
 const { mediumRssFeed, shownArticles } = config
 //
@@ -188,7 +188,6 @@ const Articles = () => {
               </div>
             ))}
         </div>*/}
-        {/*<ImageGallery />*/}
         <Instagram />
       </StyledContentWrapper>
     </StyledSection>

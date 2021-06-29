@@ -36,10 +36,10 @@ module.exports = {
                 name: "Projects",
                 url: "/#projects",
             },
-            {
-                name: "Photography",
-                url: "/#articles",
-            }
+            // {
+            //     name: "Photography",
+            //     url: "/#articles",
+            // }
         ],
         button: {
             name: "Contact",
