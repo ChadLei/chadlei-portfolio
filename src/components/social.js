@@ -98,7 +98,7 @@ const Social = ({ width, padding, fontSize, fontWeight, withIcon }) => (
           fontSize={fontSize}
           fontWeight={fontWeight}
         >
-          <Icon name={name}/>
+          <Icon name={name} color={"#faefed"}/>
         </StyledSocialProfile>
       )
     })}

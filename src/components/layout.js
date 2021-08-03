@@ -22,6 +22,7 @@ const StyledLayoutWrapper = styled.div`
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 100%;
+  display: unset; /*used for making navbar sticky*/
 `
 
 const Layout = ({ children, splashScreen }) => {

@@ -85,9 +85,11 @@ const Contact = ({ content }) => {
             {/*<strong>{frontmatter.name}</strong>*/}
             {/*<br />*/}
             <a href={`mailto:${frontmatter.email}`}>
-              {frontmatter.email}
+              {<strong>{frontmatter.email}</strong>}
             </a>
-            <Social padding=".3rem" width="auto"/>
+            {<br />}
+            {<strong>{frontmatter.phone}</strong>}
+            <Social padding=".9rem 0 0 0" width="auto"/>
           </div>
         </div>
       </StyledContentWrapper>

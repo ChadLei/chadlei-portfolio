@@ -1,6 +1,8 @@
 const config = require('./src/config');
 const theme = require('./src/styles/Theme')
 
+// Tutorial for implementing google analytics
+// https://javascript.plainenglish.io/how-to-connect-your-gatsby-js-landing-page-to-google-analytics-and-deploy-to-netlify-step-by-step-8352467583df
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`
 })

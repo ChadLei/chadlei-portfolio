@@ -17,21 +17,27 @@ const StyledHeader = motion.custom(styled.header`
   width: 100%;
   height: ${({ theme }) => theme.headerHeight};
   background: ${({ theme }) => theme.colors.background};
+  display: unset; /*used for making navbar sticky*/
 `)
 
 const StyledContentWrapper = styled(ContentWrapper)`
   && {
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    padding-top: 25px;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: ${({ theme }) => theme.colors.background};
   }
 `
 
 // https://css-tricks.com/hamburger-menu-with-a-side-of-react-hooks-and-styled-components/
 const StyledBurger = styled.button`
-  z-index: 12;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

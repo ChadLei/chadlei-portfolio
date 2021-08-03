@@ -39,9 +39,17 @@ export const pageQuery = graphql`
           title
           subtitlePrefix
           subtitle
+          body
           icon {
             childImageSharp {
               fluid(maxWidth: 60, quality: 90) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+          image {
+            childImageSharp {
+              fluid(maxWidth: 5000, quality: 100) {
                 ...GatsbyImageSharpFluid
               }
             }
@@ -120,6 +128,7 @@ export const pageQuery = graphql`
           title
           name
           email
+          phone
           profileImage {
             childImageSharp {
               fluid(maxWidth: 400, quality: 90) {
