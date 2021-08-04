@@ -5,7 +5,7 @@ import styled from "styled-components"
 import { motion, useAnimation } from "framer-motion"
 
 import Context from "../../context"
-import { detectMobileAndTablet, isSSR } from "../../utils/"
+import { detectMobileAndTablet, isSSR } from "../../styles/utils/index"
 
 import ContentWrapper from "../../styles/ContentWrapper"
 

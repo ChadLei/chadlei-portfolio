@@ -1,4 +1,4 @@
-import Theme from "../styles/Theme"
+import Theme from "../Theme"
 
 // breakpoints.lg needs to be cleaned and parsed since it is a string like '1200px'
 export const detectMobileAndTablet = windowWidth =>
