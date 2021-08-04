@@ -4,7 +4,7 @@ import styled from "styled-components"
 import Img from "gatsby-image"
 import { motion, useAnimation } from "framer-motion"
 
-// import { detectMobileAndTablet, isSSR } from "../../utils"
+import { detectMobileAndTablet, isSSR } from "../../styles/utils/index"
 import { useOnScreen }  from "../../hooks/"
 
 import ContentWrapper from "../../styles/ContentWrapper"
